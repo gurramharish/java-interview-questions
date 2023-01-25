@@ -151,7 +151,8 @@
     }
     ```
     Prototype: This pattern specifies the kind of objects to create using a prototypical instance, and create new objects by copying this prototype. This pattern is often used when creating a new object is expensive or complex.
-    Copy code
+
+    ```java
     interface Prototype {
         public Prototype getClone();
     }
@@ -162,6 +163,8 @@
             return new PrototypeImpl();
         }
     }
+    ```
+    
     These are some of the most common Creational patterns used in Java, each of these patterns has its own set of advantages and trade-offs, it's important to understand the problem at hand and choose the pattern that best suits the situation.
 
 
